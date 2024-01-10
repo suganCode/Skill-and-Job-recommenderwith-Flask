@@ -1,4 +1,4 @@
-﻿# Skill-and-Job-recommendorwith-Flask
+﻿# Skill-and-Job-recommonderwith-Flask
 
 I hosted my project on render.com . you can visit my project by clicking below link
 
