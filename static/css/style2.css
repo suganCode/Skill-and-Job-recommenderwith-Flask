@@ -1,0 +1,47 @@
+
+/*footer - body - content - form container (input + button)*/
+.form_footer div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+/*footer - body - content - form container (inputs)*/
+.form_footer div input{
+    width:46%;
+    margin-right:8px;
+    margin-bottom: 16px;
+}
+  
+.form_footer div input.button_send,.form_footer div button.button_send{width: 46%;}
+
+.footer .header .description {color:black}
+
+/*styles for hamburger icon (open and close)*/
+.nav_responsive{
+    display: flex;
+    position: absolute;
+    right: 0%;
+    top: 12%;
+    width: 100%;
+    flex-direction: column;
+    z-index:50;
+}
+
+@media only screen and (max-width: 726px) {
+
+    .form_footer div{width:100%}
+
+    .form_footer div input{
+        width:100%;
+        
+    }
+      
+    .form_footer div input.button_send,.form_footer div button.button_send{width: 100%;}
+
+}
+
